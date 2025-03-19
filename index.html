@@ -10,36 +10,38 @@
             margin: 0;
             padding: 0;
             background: url('towfiqu-barbhuiya-G5w8OSzHDhI-unsplash.jpg') no-repeat center center/cover;
-            height: 100vh;
+            min-height: 100vh;
             display: flex;
             justify-content: center;
             align-items: center;
+            overflow: hidden;
         }
         .container {
-            max-width: 600px;
+            max-width: 400px; /* Further reduced width for better fit */
             background: rgba(255, 255, 255, 0.95);
-            padding: 20px;
-            border-radius: 10px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+            padding: 12px; /* Reduced padding */
+            border-radius: 8px;
+            box-shadow: 0 0 6px rgba(0, 0, 0, 0.2);
             text-align: center;
         }
         h1 {
+            font-size: 18px; /* Adjusted font size */
             color: #bf9004;
         }
         p {
-            font-size: 18px;
+            font-size: 12px; /* Adjusted font size */
             color: #5a5a5a;
         }
         .price {
-            font-size: 24px;
+            font-size: 16px;
             font-weight: bold;
             color: #008000;
         }
         .order-btn {
             display: inline-block;
-            margin-top: 20px;
-            padding: 10px 20px;
-            font-size: 18px;
+            margin-top: 8px;
+            padding: 6px 12px; /* Adjusted padding */
+            font-size: 12px;
             color: #fff;
             background-color: #bf9004;
             border: none;
@@ -50,27 +52,18 @@
         .order-btn:hover {
             background-color: #8a6703;
         }
-        .contact {
-            margin-top: 20px;
-            font-size: 16px;
-            color: #0066cc;
-        }
-        .delivery {
-            margin-top: 10px;
-            font-size: 14px;
-            color: #800080;
-        }
-        .options {
-            margin-top: 20px;
+        .contact, .delivery, .payment {
+            font-size: 11px; /* Adjusted font size */
+            margin-top: 8px;
         }
         .payment {
-            margin-top: 20px;
-            padding: 15px;
+            padding: 8px;
             background: #f9f9f9;
-            border-radius: 8px;
-            text-align: center;
+            border-radius: 6px;
+            text-align: left;
         }
         .payment h2 {
+            font-size: 14px;
             color: #bf9004;
         }
         .payment ul {
@@ -78,8 +71,8 @@
             padding: 0;
         }
         .payment li {
-            font-size: 16px;
-            margin-bottom: 5px;
+            font-size: 11px;
+            margin-bottom: 4px;
         }
         .payment a {
             color: #0066cc;
@@ -99,16 +92,16 @@
         <p><strong>Minimum Order: $25</strong></p>
         <p>Order at least 2 days in advance.</p>
         <a href="tel:+61494166370" class="order-btn">Order Now</a>
-	<p> Our chapatis are made from 100% whole wheat flour, <strong>no maida</strong>, ensuring a healthier and more nutritious meal for you and your family!</p>
-        <p> You can enjoy our chapati/roti with ghee for a richer taste or without ghee for a lighter, healthier option.
-	<div class="contact">
+        <p> Our chapatis are made from 100% whole wheat flour, <strong>no maida</strong>, ensuring a healthier and more nutritious meal for you and your family!</p>
+        <p> You can enjoy our chapati/roti with ghee for a richer taste or without ghee for a lighter, healthier option.</p>
+        <div class="contact">
             <p><strong>Seller:</strong> Nourished Indian Foods</p>
             <p><strong>Contact:</strong> +61 494 166 370</p>
             <p><strong>Email:</strong> nourishedindianfoods@gmail.com</p>
         </div>
         <div class="delivery">            
-	<p><strong>Kitchen Open:</strong> Tuesday, Thursday and Sunday </p>            
-	<p><strong>Delivery Options :</strong> Customers can arrange delivery at their own expense <strong>or</strong> opt for self-collection at <u>2 Campbell Street, Toowong 4066 QLD.</u> </p>
+            <p><strong>Kitchen Open:</strong> Tuesday, Thursday and Sunday </p>            
+            <p><strong>Delivery Options :</strong> Customers can arrange delivery at their own expense <strong>or</strong> opt for self-collection at <u>2 Campbell Street, Toowong 4066 QLD.</u> </p>
         </div>
         <div class="payment">
             <h2>Payment Options:</h2>
